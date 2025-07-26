@@ -1,0 +1,18 @@
+[project]
+name = "langgraphproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipykernel>=6.29.5",
+    "langchain-community>=0.3.27",
+    "langchain-groq>=0.3.6",
+    "langchain-openai>=0.3.28",
+    "langchain[anthropic]>=0.3.26",
+    "langgraph>=0.5.3",
+    "openai>=1.97.0",
+    "pydentic>=0.0.1.dev3",
+    "python-dotenv>=1.1.1",
+]
