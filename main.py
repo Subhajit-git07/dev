@@ -143,7 +143,7 @@ state = graph.invoke({"messages": [{"role": "user", "content": user_input}]})
 print(state["messages"][-1].content)
 '''
 
-
+ 
 def run_chatbot():
     state = {"messages": [], "message_type": None}
 
